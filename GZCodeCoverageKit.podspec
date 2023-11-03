@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/葛高召/GZCodeCoverageKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
   s.source_files = 'GZCodeCoverageKit/Classes/**/*'
-  
+#  s.vendored_frameworks = 'GZCodeCoverageKit/Frameworks/MTCCodeCov.framework'
+
   # s.resource_bundles = {
   #   'GZCodeCoverageKit' => ['GZCodeCoverageKit/Assets/*.png']
   # }

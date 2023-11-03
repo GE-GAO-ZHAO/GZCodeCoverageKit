@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		83401BE52AF379E400490CF6 /* TestSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83401BE22AF379E400490CF6 /* TestSwift.swift */; };
+		83401BE62AF379E400490CF6 /* TestObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 83401BE42AF379E400490CF6 /* TestObjc.m */; };
 		A537DD6A42229259A379F0E5 /* Pods_GZCodeCoverageKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A83272F1C0C225B24E3D04 /* Pods_GZCodeCoverageKit_Example.framework */; };
 		B5B71BEA5A29F0CBFD94B826 /* Pods_GZCodeCoverageKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C08264BEDF76E4B474D23A6 /* Pods_GZCodeCoverageKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05734C6F53B3AFC2E37FAF1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		05734C6F53B3AFC2E37FAF1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2121DBCECC0CFD14832E7410 /* Pods-GZCodeCoverageKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZCodeCoverageKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GZCodeCoverageKit_Tests/Pods-GZCodeCoverageKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		59A83272F1C0C225B24E3D04 /* Pods_GZCodeCoverageKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GZCodeCoverageKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GZCodeCoverageKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZCodeCoverageKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +44,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7C08264BEDF76E4B474D23A6 /* Pods_GZCodeCoverageKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GZCodeCoverageKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FA3D55F7A49316732B1935B /* GZCodeCoverageKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GZCodeCoverageKit.podspec; path = ../GZCodeCoverageKit.podspec; sourceTree = "<group>"; };
+		7FA3D55F7A49316732B1935B /* GZCodeCoverageKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GZCodeCoverageKit.podspec; path = ../GZCodeCoverageKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83401BE12AF379E400490CF6 /* TestObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjc.h; sourceTree = "<group>"; };
+		83401BE22AF379E400490CF6 /* TestSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSwift.swift; sourceTree = "<group>"; };
+		83401BE32AF379E400490CF6 /* GZCodeCoverageKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GZCodeCoverageKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		83401BE42AF379E400490CF6 /* TestObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjc.m; sourceTree = "<group>"; };
 		A1331C9398C4C089AE3DDB32 /* Pods-GZCodeCoverageKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZCodeCoverageKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GZCodeCoverageKit_Tests/Pods-GZCodeCoverageKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BDB59014339EC702A9461D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BDB59014339EC702A9461D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C7E7C725CCE9C07DB33E759B /* Pods-GZCodeCoverageKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZCodeCoverageKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E2E2FF615D5BD5623F54F853 /* Pods-GZCodeCoverageKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZCodeCoverageKit_Example.release.xcconfig"; path = "Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +99,7 @@
 		607FACD21AFB9204008FA782 /* Example for GZCodeCoverageKit */ = {
 			isa = PBXGroup;
 			children = (
+				83401BE02AF379E400490CF6 /* Source */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -139,6 +146,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		83401BE02AF379E400490CF6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				83401BE12AF379E400490CF6 /* TestObjc.h */,
+				83401BE22AF379E400490CF6 /* TestSwift.swift */,
+				83401BE32AF379E400490CF6 /* GZCodeCoverageKit-Bridging-Header.h */,
+				83401BE42AF379E400490CF6 /* TestObjc.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		95FF3A2AD1D8DC2E40CC9C04 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +165,6 @@
 				2121DBCECC0CFD14832E7410 /* Pods-GZCodeCoverageKit_Tests.debug.xcconfig */,
 				A1331C9398C4C089AE3DDB32 /* Pods-GZCodeCoverageKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +188,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				183B3980965E4EE10627CB75 /* [CP] Embed Pods Frameworks */,
+				EF96F46F303272E40FCA1BC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +207,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				7B79ABC0D4AA4D1DA72E66F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +230,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7VXQMC9J56;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7VXQMC9J56;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +246,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,24 +282,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		183B3980965E4EE10627CB75 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GZCodeCoverageKit/GZCodeCoverageKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GZCodeCoverageKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		491EF25BBA0AA702C2B7D5E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,24 +302,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B79ABC0D4AA4D1DA72E66F4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Tests/Pods-GZCodeCoverageKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Tests/Pods-GZCodeCoverageKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B8B84DCBDB0FCDB42A7F5025 /* [CP] Check Pods Manifest.lock */ = {
@@ -343,6 +326,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		EF96F46F303272E40FCA1BC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GZCodeCoverageKit/GZCodeCoverageKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GZCodeCoverageKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GZCodeCoverageKit_Example/Pods-GZCodeCoverageKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -350,8 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83401BE52AF379E400490CF6 /* TestSwift.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				83401BE62AF379E400490CF6 /* TestObjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,11 +500,24 @@
 			baseConfigurationReference = C7E7C725CCE9C07DB33E759B /* Pods-GZCodeCoverageKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VXQMC9J56;
 				INFOPLIST_FILE = GZCodeCoverageKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fprofile-instr-generate",
+					"-fcoverage-mapping",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-fprofile-instr-generate",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -profile-generate -profile-coverage-mapping";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GZCodeCoverageKit/Source/GZCodeCoverageKit-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -512,11 +528,14 @@
 			baseConfigurationReference = E2E2FF615D5BD5623F54F853 /* Pods-GZCodeCoverageKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VXQMC9J56;
 				INFOPLIST_FILE = GZCodeCoverageKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GZCodeCoverageKit/Source/GZCodeCoverageKit-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -526,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2121DBCECC0CFD14832E7410 /* Pods-GZCodeCoverageKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7VXQMC9J56;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1331C9398C4C089AE3DDB32 /* Pods-GZCodeCoverageKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7VXQMC9J56;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

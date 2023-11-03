@@ -1,13 +1,54 @@
-use_frameworks!
 
-platform :ios, '10.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source "ssh://git@gitlab.huolala.cn:56358/group-autotest/specs.git"
+
+use_frameworks!
+platform :ios, '13.0'
 
 target 'GZCodeCoverageKit_Example' do
   pod 'GZCodeCoverageKit', :path => '../'
+  #pod 'MTCCodeCov', '0.1.10', :configurations => ['Debug']
+  #pod 'YFDCodeCoverageKit', '~> 0.6', :configurations => ['Debug']
 
   target 'GZCodeCoverageKit_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    #pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end
+
+
+#pod工程配置
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+      target.build_configurations.each do |config|
+        if config.name == 'Debug'
+           # 覆盖率配置
+           config.build_settings['OTHER_CFLAGS'] = '$(inherited) -fprofile-instr-generate -fcoverage-mapping'
+           config.build_settings['OTHER_SWIFT_FLAGS'] = '$(inherited) -profile-generate -profile-coverage-mapping'
+           config.build_settings['OTHER_LDFLAGS'] = '$(inherited) -fprofile-instr-generate'
+           # End of 覆盖率配置
+        end
+      end
+    end
+  end
+end
+
+# 修改主工程
+project = Xcodeproj::Project.open('GZCodeCoverageKit.xcodeproj')
+puts project
+project.targets.each do |target|
+  if target.name == 'GZCodeCoverageKit_Example'
+    target.build_configurations.each do |config|
+      if config.name == 'Debug'
+        # 覆盖率配置
+        config.build_settings['OTHER_CFLAGS'] = '$(inherited) -fprofile-instr-generate -fcoverage-mapping'
+        config.build_settings['OTHER_SWIFT_FLAGS'] = '$(inherited) -profile-generate -profile-coverage-mapping'
+        config.build_settings['OTHER_LDFLAGS'] = '$(inherited) -fprofile-instr-generate'
+        # End of 覆盖率配置
+      end
+    end
+  end
+end
+project.save()

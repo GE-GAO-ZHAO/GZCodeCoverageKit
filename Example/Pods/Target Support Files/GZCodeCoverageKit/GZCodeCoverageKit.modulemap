@@ -1,0 +1,6 @@
+framework module GZCodeCoverageKit {
+  umbrella header "GZCodeCoverageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
