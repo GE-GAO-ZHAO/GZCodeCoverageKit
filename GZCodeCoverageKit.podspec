@@ -25,12 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '葛高召' => 'gaozhao.ge@huolala.cn' }
-  s.source           = { :git => 'https://github.com/葛高召/GZCodeCoverageKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:GE-GAO-ZHAO/GZCodeCoverageKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
   s.source_files = 'GZCodeCoverageKit/Classes/**/*'
+  
 #  s.vendored_frameworks = 'GZCodeCoverageKit/Frameworks/MTCCodeCov.framework'
 
   # s.resource_bundles = {
