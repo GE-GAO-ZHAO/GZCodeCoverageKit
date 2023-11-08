@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GZCodeCoverageKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of GZCodeCoverageKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,17 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/GZCodeCoverageKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.static_framework = true
   s.ios.deployment_target = '13.0'
-  s.swift_version = '5.0'
+#  s.swift_version = '5.0'
   s.source_files = 'GZCodeCoverageKit/Classes/**/*'
   
-#  s.vendored_frameworks = 'GZCodeCoverageKit/Frameworks/MTCCodeCov.framework'
-
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+#  s.frameworks = 'Foundation', 'UIKit'
+#  s.compiler_flags = '-OTHER_CFLAGS=-fcoverage-mapping', 'OTHER_SWIFT_FLAGS=-profile-coverage-mapping', 'OTHER_LDFLAGS=-fprofile-instr-generate"
+  
+  
   # s.resource_bundles = {
   #   'GZCodeCoverageKit' => ['GZCodeCoverageKit/Assets/*.png']
   # }

@@ -1,5 +1,5 @@
 PODS:
-  - GZCodeCoverageKit (0.1.0)
+  - GZCodeCoverageKit (0.1.1)
 
 DEPENDENCIES:
   - GZCodeCoverageKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GZCodeCoverageKit: b6af5299f8b48288a4e70253a4619a141b3707f7
+  GZCodeCoverageKit: 83c76b496b5b092841ef905aa8b78662e551e3a0
 
 PODFILE CHECKSUM: c8d32cdd34d706745f8f88956733aadde5cec181
 

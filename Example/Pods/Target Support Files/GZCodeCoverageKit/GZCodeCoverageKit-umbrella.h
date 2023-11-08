@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "InstrProfiling.h"
+#import "GZCodeCoverageManager.h"
 
 FOUNDATION_EXPORT double GZCodeCoverageKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char GZCodeCoverageKitVersionString[];
