@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GZCodeCoverageKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of GZCodeCoverageKit.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '葛高召' => 'gaozhao.ge@huolala.cn' }
-  s.source           = { :git => 'https://github.com/GE-GAO-ZHAO/GZCodeCoverageKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:GE-GAO-ZHAO/GZCodeCoverageKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
