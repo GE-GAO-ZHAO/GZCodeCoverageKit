@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GZCodeCoverageKit'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A short description of GZCodeCoverageKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,5 +33,9 @@ TODO: Add long description of the pod here.
   
   s.frameworks = 'Foundation', 'UIKit'
   
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-fprofile-instr-generate' }
+  s.pod_target_xcconfig = {
+      'OTHER_LDFLAGS' => '-fprofile-instr-generate' ,
+      'OTHER_SWIFT_FLAGS' => '-profile-generate' ,
+      'OTHER_LDFLAGS' => '-fprofile-instr-generate'
+  }
 end
