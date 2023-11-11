@@ -8,69 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		0610611EF80BFFF12481F67AFD820D8A /* Pods-GZCodeCoverageKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543B7D35EE1D3C7BDC183E8A8CD4F371 /* Pods-GZCodeCoverageKit_Example-dummy.m */; };
-		07CB0439FF6E2E562E28CA8A99C29859 /* GZCodeCoverageKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1369B8820F8BA37CDB747D1B141CA76 /* GZCodeCoverageKit-dummy.m */; };
 		36CE1F22250F8F125A8ED014EBB05DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		36DBE375897B8B6494FA6C874F231CA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		3C9FF8EB322EB03F43BF3F46CEA0C782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		42733707A5277FD1949ECA94CC93B57A /* GZCodeCoverageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 704630374F4BC6B98CD63ABBB52A535A /* GZCodeCoverageManager.m */; };
-		42957DD9026AF9F0A2BD2AA15AFEEFC2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738A5130C4BE222A97886CD524E15B5 /* ReplaceMe.swift */; };
+		460D40CE3A788069CECE884F2934578F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371E3B18DB45F0DD196F89AE5CB58D0 /* ReplaceMe.swift */; };
+		49F998235836F2C4E9AC7F513C71E2FC /* GZCodeCoverageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 17869D8D0B2E8701695BECEAC5136904 /* GZCodeCoverageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CCC2204AE4474D095B1F37F2F47F528 /* Pods-GZCodeCoverageKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F2BA61CA062B880BF5121AEB3CB74E /* Pods-GZCodeCoverageKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F5F6531998F5FF1674824C4114773C9 /* Pods-GZCodeCoverageKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D22E5BCFAEDC3B3CEDB5B4D0AFBA9F /* Pods-GZCodeCoverageKit_Tests-dummy.m */; };
-		688EAD69EBF61D76C300919D66E4E705 /* GZCodeCoverageKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC5DCD74AD987A46C15AE423EDCF232 /* GZCodeCoverageKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4795A34A20EB2CA1667B49BAC2C1E6 /* GZCodeCoverageKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 345C16292A83FCD40A98450DC7DAC806 /* GZCodeCoverageKit-dummy.m */; };
 		845A9DF3DDD61953AAFE3F5CB6CA925E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A86771AA80AB812A8376378A04F11581 /* GZCodeCoverageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1254ABC277B815F90421CCFB17EFC490 /* GZCodeCoverageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFBC04848300CCC7BE13DC1B702330A8 /* Pods-GZCodeCoverageKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B5E025AA77E99C52DC66220855E330 /* Pods-GZCodeCoverageKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E25DE39929C8117FD458A5BCF82CD640 /* GZCodeCoverageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35944117F678040A17D85A0FB99DC749 /* GZCodeCoverageManager.m */; };
+		E2F2E1DD6C121E828B8F0D937E21A6DC /* GZCodeCoverageKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B5F0BFF134D41943CE13D9FA919E0D2 /* GZCodeCoverageKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		624A22C99A03F47B8F92DC6945E39FF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2B136E41E10E3483046DF7506CCC22;
-			remoteInfo = GZCodeCoverageKit;
-		};
-		E14A2122BD8EC69AAC5AB5AE545DAFF7 /* PBXContainerItemProxy */ = {
+		0FDE4DB0F37451A1D8FB31417B4A02CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 962F8E54F6343F7392FF3977B7EA778D;
 			remoteInfo = "Pods-GZCodeCoverageKit_Example";
 		};
+		3F5E5ACCEDDEF99D97114082C96C4597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2B136E41E10E3483046DF7506CCC22;
+			remoteInfo = GZCodeCoverageKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C089563DC00D082657C61CA610E9747 /* GZCodeCoverageKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GZCodeCoverageKit.modulemap; sourceTree = "<group>"; };
 		0DF528189E1F5F6F88BAC8300F4D031D /* Pods-GZCodeCoverageKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZCodeCoverageKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1254ABC277B815F90421CCFB17EFC490 /* GZCodeCoverageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GZCodeCoverageManager.h; sourceTree = "<group>"; };
 		16FB50FDD62AB07A11DE385C7D1C38E1 /* Pods-GZCodeCoverageKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZCodeCoverageKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17869D8D0B2E8701695BECEAC5136904 /* GZCodeCoverageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZCodeCoverageManager.h; path = GZCodeCoverageKit/Classes/Core/GZCodeCoverageManager.h; sourceTree = "<group>"; };
 		1A0AC2CDAEF591006C463DCAA915ABBD /* Pods-GZCodeCoverageKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZCodeCoverageKit_Example.modulemap"; sourceTree = "<group>"; };
 		234A7C0E3FAA2D4B647371488ECB4C83 /* Pods-GZCodeCoverageKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GZCodeCoverageKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		345C16292A83FCD40A98450DC7DAC806 /* GZCodeCoverageKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZCodeCoverageKit-dummy.m"; sourceTree = "<group>"; };
+		35944117F678040A17D85A0FB99DC749 /* GZCodeCoverageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GZCodeCoverageManager.m; path = GZCodeCoverageKit/Classes/Core/GZCodeCoverageManager.m; sourceTree = "<group>"; };
 		37B5E025AA77E99C52DC66220855E330 /* Pods-GZCodeCoverageKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZCodeCoverageKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3A86C70BAA7FD56FECDF6B082461041D /* GZCodeCoverageKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZCodeCoverageKit.debug.xcconfig; sourceTree = "<group>"; };
+		3B5F0BFF134D41943CE13D9FA919E0D2 /* GZCodeCoverageKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZCodeCoverageKit-umbrella.h"; sourceTree = "<group>"; };
 		508A8B4FA477FA4405218A9124970F3A /* Pods-GZCodeCoverageKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZCodeCoverageKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		543B7D35EE1D3C7BDC183E8A8CD4F371 /* Pods-GZCodeCoverageKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZCodeCoverageKit_Example-dummy.m"; sourceTree = "<group>"; };
 		55EC725A0941CE28A90B64B0E47D68DC /* Pods-GZCodeCoverageKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZCodeCoverageKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		5738A5130C4BE222A97886CD524E15B5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GZCodeCoverageKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5A573CEAB3252EA497927F9A9B6C255D /* Pods-GZCodeCoverageKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GZCodeCoverageKit_Tests.modulemap"; sourceTree = "<group>"; };
 		64D22E5BCFAEDC3B3CEDB5B4D0AFBA9F /* Pods-GZCodeCoverageKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GZCodeCoverageKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		6565309E9B2F39598CDD60B269D38A7C /* GZCodeCoverageKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZCodeCoverageKit.release.xcconfig; sourceTree = "<group>"; };
 		6AD21CABB3CF359916A38C098DD8945C /* Pods-GZCodeCoverageKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GZCodeCoverageKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		704630374F4BC6B98CD63ABBB52A535A /* GZCodeCoverageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GZCodeCoverageManager.m; sourceTree = "<group>"; };
-		7758A42E8F30A3182A3CFE63594CBBF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7F198074512F6D9632B29DC9DF13EF79 /* GZCodeCoverageKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZCodeCoverageKit-prefix.pch"; sourceTree = "<group>"; };
+		7545CDDAAB199A5C7CD0D62A779561C7 /* GZCodeCoverageKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZCodeCoverageKit.release.xcconfig; sourceTree = "<group>"; };
 		8E08EABB5676D3A57762C1F20D1E9EC9 /* GZCodeCoverageKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GZCodeCoverageKit; path = GZCodeCoverageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96A4789777D8F9720ACCF2A757113F8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		920C892A62CA064EEC02A1465239E19E /* GZCodeCoverageKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GZCodeCoverageKit.debug.xcconfig; sourceTree = "<group>"; };
 		96F2BA61CA062B880BF5121AEB3CB74E /* Pods-GZCodeCoverageKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GZCodeCoverageKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		980A7E1943EA6C4780DCEA525B7D95E0 /* Pods-GZCodeCoverageKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZCodeCoverageKit_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7B8B06FE7AF69572D72B45D4D1C5023 /* GZCodeCoverageKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GZCodeCoverageKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BEC5DCD74AD987A46C15AE423EDCF232 /* GZCodeCoverageKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZCodeCoverageKit-umbrella.h"; sourceTree = "<group>"; };
+		A371E3B18DB45F0DD196F89AE5CB58D0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GZCodeCoverageKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A667BF26F04348A04482EB07F289A8F3 /* GZCodeCoverageKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GZCodeCoverageKit-Info.plist"; sourceTree = "<group>"; };
 		CBE525168E613C6CF61145DD9E459EF3 /* Pods-GZCodeCoverageKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GZCodeCoverageKit_Example"; path = Pods_GZCodeCoverageKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1369B8820F8BA37CDB747D1B141CA76 /* GZCodeCoverageKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GZCodeCoverageKit-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DE5B1AC4616B94140D9C2A0B0A4852DA /* GZCodeCoverageKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GZCodeCoverageKit-Info.plist"; sourceTree = "<group>"; };
+		D86C318961371219C0C04D01DE88A305 /* GZCodeCoverageKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GZCodeCoverageKit-prefix.pch"; sourceTree = "<group>"; };
 		E08D69DCFFF2EE2882347F98F05C7144 /* Pods-GZCodeCoverageKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZCodeCoverageKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E350820FEAD38C72EE5711256EE9D4BA /* GZCodeCoverageKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GZCodeCoverageKit.modulemap; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EE15A2162362EAB344724E81E5D2F99A /* Pods-GZCodeCoverageKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GZCodeCoverageKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FBE4BAFE9247305E9A82085BD1449D72 /* Pods-GZCodeCoverageKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GZCodeCoverageKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -117,12 +114,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		09B6B9B5B74AA691447EC4C4CD5778BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A4A229DB759FF84BB5E0B9B6B0912C8 /* GZCodeCoverageKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42162F46FDF82817CC0FCCCF90D56C05 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E350820FEAD38C72EE5711256EE9D4BA /* GZCodeCoverageKit.modulemap */,
+				345C16292A83FCD40A98450DC7DAC806 /* GZCodeCoverageKit-dummy.m */,
+				A667BF26F04348A04482EB07F289A8F3 /* GZCodeCoverageKit-Info.plist */,
+				D86C318961371219C0C04D01DE88A305 /* GZCodeCoverageKit-prefix.pch */,
+				3B5F0BFF134D41943CE13D9FA919E0D2 /* GZCodeCoverageKit-umbrella.h */,
+				920C892A62CA064EEC02A1465239E19E /* GZCodeCoverageKit.debug.xcconfig */,
+				7545CDDAAB199A5C7CD0D62A779561C7 /* GZCodeCoverageKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GZCodeCoverageKit";
 			sourceTree = "<group>";
 		};
 		48FC360B8C59F81B1DE7A6A3B814F814 /* Pods-GZCodeCoverageKit_Example */ = {
@@ -167,24 +187,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75AB646FBBEB10B100CAA82CDBD026D8 /* Core */ = {
+		8A4A229DB759FF84BB5E0B9B6B0912C8 /* GZCodeCoverageKit */ = {
 			isa = PBXGroup;
 			children = (
-				1254ABC277B815F90421CCFB17EFC490 /* GZCodeCoverageManager.h */,
-				704630374F4BC6B98CD63ABBB52A535A /* GZCodeCoverageManager.m */,
+				17869D8D0B2E8701695BECEAC5136904 /* GZCodeCoverageManager.h */,
+				35944117F678040A17D85A0FB99DC749 /* GZCodeCoverageManager.m */,
+				A371E3B18DB45F0DD196F89AE5CB58D0 /* ReplaceMe.swift */,
+				42162F46FDF82817CC0FCCCF90D56C05 /* Support Files */,
 			);
-			name = Core;
-			path = GZCodeCoverageKit/Classes/Core;
-			sourceTree = "<group>";
-		};
-		882CBC0B41D2D2092356380ACE881976 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B7B8B06FE7AF69572D72B45D4D1C5023 /* GZCodeCoverageKit.podspec */,
-				7758A42E8F30A3182A3CFE63594CBBF6 /* LICENSE */,
-				96A4789777D8F9720ACCF2A757113F8B /* README.md */,
-			);
-			name = Pod;
+			name = GZCodeCoverageKit;
+			path = GZCodeCoverageKit;
 			sourceTree = "<group>";
 		};
 		B7C403180A2B31CC81F504761133563F /* Targets Support Files */ = {
@@ -196,50 +208,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C97F919A4F71CD9F143D60F925BCEED7 /* GZCodeCoverageKit */ = {
-			isa = PBXGroup;
-			children = (
-				5738A5130C4BE222A97886CD524E15B5 /* ReplaceMe.swift */,
-				75AB646FBBEB10B100CAA82CDBD026D8 /* Core */,
-				882CBC0B41D2D2092356380ACE881976 /* Pod */,
-				CEE44A15C4AD6A1BDD339104CC31FFF5 /* Support Files */,
-			);
-			name = GZCodeCoverageKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CEE44A15C4AD6A1BDD339104CC31FFF5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C089563DC00D082657C61CA610E9747 /* GZCodeCoverageKit.modulemap */,
-				D1369B8820F8BA37CDB747D1B141CA76 /* GZCodeCoverageKit-dummy.m */,
-				DE5B1AC4616B94140D9C2A0B0A4852DA /* GZCodeCoverageKit-Info.plist */,
-				7F198074512F6D9632B29DC9DF13EF79 /* GZCodeCoverageKit-prefix.pch */,
-				BEC5DCD74AD987A46C15AE423EDCF232 /* GZCodeCoverageKit-umbrella.h */,
-				3A86C70BAA7FD56FECDF6B082461041D /* GZCodeCoverageKit.debug.xcconfig */,
-				6565309E9B2F39598CDD60B269D38A7C /* GZCodeCoverageKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GZCodeCoverageKit";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D7B422EC08517EB246E5568C0FB6A312 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				09B6B9B5B74AA691447EC4C4CD5778BA /* Pods */,
 				07250FB5A99A10768765DD15368E9339 /* Products */,
 				B7C403180A2B31CC81F504761133563F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D7B422EC08517EB246E5568C0FB6A312 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C97F919A4F71CD9F143D60F925BCEED7 /* GZCodeCoverageKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,20 +230,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A221D0EC31AAD3D6B5075EF9E610DC6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F2E1DD6C121E828B8F0D937E21A6DC /* GZCodeCoverageKit-umbrella.h in Headers */,
+				49F998235836F2C4E9AC7F513C71E2FC /* GZCodeCoverageManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B58AAF5D78D1F4987F8EB960494C2EBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CFBC04848300CCC7BE13DC1B702330A8 /* Pods-GZCodeCoverageKit_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9027AF275E58D8F9900A28BE91ADBB9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				688EAD69EBF61D76C300919D66E4E705 /* GZCodeCoverageKit-umbrella.h in Headers */,
-				A86771AA80AB812A8376378A04F11581 /* GZCodeCoverageManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +262,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1EF55A55D8595C35C46BEC3D14D8A93A /* PBXTargetDependency */,
+				B77A4BD45DCB74031353047E4E80FCE7 /* PBXTargetDependency */,
 			);
 			name = "Pods-GZCodeCoverageKit_Example";
 			productName = Pods_GZCodeCoverageKit_Example;
@@ -304,7 +281,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6DC1C4AC5B42240B205287F546B287CB /* PBXTargetDependency */,
+				CD6C3595A79EB5F249811E3029DDB844 /* PBXTargetDependency */,
 			);
 			name = "Pods-GZCodeCoverageKit_Tests";
 			productName = Pods_GZCodeCoverageKit_Tests;
@@ -315,8 +292,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FF7180538BBA423EF1CFD7FC8C88311 /* Build configuration list for PBXNativeTarget "GZCodeCoverageKit" */;
 			buildPhases = (
-				E9027AF275E58D8F9900A28BE91ADBB9 /* Headers */,
-				0F1001916B6992ACBC2CCE58260C642F /* Sources */,
+				A221D0EC31AAD3D6B5075EF9E610DC6E /* Headers */,
+				14D9B533AF7A3252D9C0C66527910B14 /* Sources */,
 				5547399F984A4382101F4524A4564769 /* Frameworks */,
 				F16DFE13643E2970498F4F1455083BCF /* Resources */,
 			);
@@ -391,13 +368,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F1001916B6992ACBC2CCE58260C642F /* Sources */ = {
+		14D9B533AF7A3252D9C0C66527910B14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07CB0439FF6E2E562E28CA8A99C29859 /* GZCodeCoverageKit-dummy.m in Sources */,
-				42733707A5277FD1949ECA94CC93B57A /* GZCodeCoverageManager.m in Sources */,
-				42957DD9026AF9F0A2BD2AA15AFEEFC2 /* ReplaceMe.swift in Sources */,
+				6C4795A34A20EB2CA1667B49BAC2C1E6 /* GZCodeCoverageKit-dummy.m in Sources */,
+				E25DE39929C8117FD458A5BCF82CD640 /* GZCodeCoverageManager.m in Sources */,
+				460D40CE3A788069CECE884F2934578F /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,63 +389,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EF55A55D8595C35C46BEC3D14D8A93A /* PBXTargetDependency */ = {
+		B77A4BD45DCB74031353047E4E80FCE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GZCodeCoverageKit;
 			target = FE2B136E41E10E3483046DF7506CCC22 /* GZCodeCoverageKit */;
-			targetProxy = 624A22C99A03F47B8F92DC6945E39FF5 /* PBXContainerItemProxy */;
+			targetProxy = 3F5E5ACCEDDEF99D97114082C96C4597 /* PBXContainerItemProxy */;
 		};
-		6DC1C4AC5B42240B205287F546B287CB /* PBXTargetDependency */ = {
+		CD6C3595A79EB5F249811E3029DDB844 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GZCodeCoverageKit_Example";
 			target = 962F8E54F6343F7392FF3977B7EA778D /* Pods-GZCodeCoverageKit_Example */;
-			targetProxy = E14A2122BD8EC69AAC5AB5AE545DAFF7 /* PBXContainerItemProxy */;
+			targetProxy = 0FDE4DB0F37451A1D8FB31417B4A02CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03AAC3303D5C233D3DD85F876B5D4A3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A86C70BAA7FD56FECDF6B082461041D /* GZCodeCoverageKit.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit.modulemap";
-				OTHER_CFLAGS = (
-					"$(inherited)",
-					"-fprofile-instr-generate",
-					"-fcoverage-mapping",
-				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-fprofile-instr-generate",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -profile-generate -profile-coverage-mapping";
-				PRODUCT_MODULE_NAME = GZCodeCoverageKit;
-				PRODUCT_NAME = GZCodeCoverageKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		38466191FC188D3B963A56BEB39AD1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 508A8B4FA477FA4405218A9124970F3A /* Pods-GZCodeCoverageKit_Example.debug.xcconfig */;
@@ -512,6 +447,48 @@
 			};
 			name = Debug;
 		};
+		3D0F164C317F137BA2D839F780220B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920C892A62CA064EEC02A1465239E19E /* GZCodeCoverageKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit.modulemap";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fprofile-instr-generate",
+					"-fcoverage-mapping",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-fprofile-instr-generate",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -profile-generate -profile-coverage-mapping";
+				PRODUCT_MODULE_NAME = GZCodeCoverageKit;
+				PRODUCT_NAME = GZCodeCoverageKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4ED7A0C3447A25E34E9DED98DDEC1F3F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DF528189E1F5F6F88BAC8300F4D031D /* Pods-GZCodeCoverageKit_Example.release.xcconfig */;
@@ -540,6 +517,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C2ADC914F37697478EDD8F6D9B5EF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7545CDDAAB199A5C7CD0D62A779561C7 /* GZCodeCoverageKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit.modulemap";
+				PRODUCT_MODULE_NAME = GZCodeCoverageKit;
+				PRODUCT_NAME = GZCodeCoverageKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -710,39 +720,6 @@
 			};
 			name = Release;
 		};
-		D010845F1C0F2E441DE0CAD928E2BAD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6565309E9B2F39598CDD60B269D38A7C /* GZCodeCoverageKit.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GZCodeCoverageKit/GZCodeCoverageKit.modulemap";
-				PRODUCT_MODULE_NAME = GZCodeCoverageKit;
-				PRODUCT_NAME = GZCodeCoverageKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D53B98C0A02EF71492881313661A0864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC9BA315AB30E5BB82B7009912BAB652 /* Pods-GZCodeCoverageKit_Tests.debug.xcconfig */;
@@ -801,8 +778,8 @@
 		4FF7180538BBA423EF1CFD7FC8C88311 /* Build configuration list for PBXNativeTarget "GZCodeCoverageKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03AAC3303D5C233D3DD85F876B5D4A3D /* Debug */,
-				D010845F1C0F2E441DE0CAD928E2BAD1 /* Release */,
+				3D0F164C317F137BA2D839F780220B9D /* Debug */,
+				7C2ADC914F37697478EDD8F6D9B5EF07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

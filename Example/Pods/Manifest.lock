@@ -1,16 +1,16 @@
 PODS:
-  - GZCodeCoverageKit (0.1.1)
+  - GZCodeCoverageKit (1.0.1)
 
 DEPENDENCIES:
-  - GZCodeCoverageKit (from `../`)
+  - GZCodeCoverageKit
 
-EXTERNAL SOURCES:
-  GZCodeCoverageKit:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - GZCodeCoverageKit
 
 SPEC CHECKSUMS:
-  GZCodeCoverageKit: 83c76b496b5b092841ef905aa8b78662e551e3a0
+  GZCodeCoverageKit: f8d2490f30cc7ee9065004fea47515fc59b17fd4
 
-PODFILE CHECKSUM: c8d32cdd34d706745f8f88956733aadde5cec181
+PODFILE CHECKSUM: 62101a43ff23af0dc332aa2c51fdf59ed50d4c20
 
 COCOAPODS: 1.12.1

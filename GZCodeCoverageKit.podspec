@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GZCodeCoverageKit'
-  s.version          = '1.0.2'
+  s.version          = '2.0.0'
   s.summary          = 'A short description of GZCodeCoverageKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,14 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:GE-GAO-ZHAO/GZCodeCoverageKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'GZCodeCoverageKit/Classes/**/*'
-  
   s.frameworks = 'Foundation', 'UIKit'
+  s.vendored_frameworks = 'GZCodeCoverageKit-1.0.2/GZCodeCoverageKit.xcframework/ios-arm64/GZCodeCoverageKit.framework'
   
-  s.pod_target_xcconfig = {
-      'OTHER_LDFLAGS' => '-fprofile-instr-generate' ,
-      'OTHER_SWIFT_FLAGS' => '-profile-generate' ,
-      'OTHER_LDFLAGS' => '-fprofile-instr-generate'
+  s.static_framework = true
+  s.xcconfig = {
+      'ARCHS' => '${ARCHS_STANDARD_64_BIT}',
+      'VALID_ARCHS' => '${ARCHS_STANDARD_64_BIT}'
   }
+
 end

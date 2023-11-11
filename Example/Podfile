@@ -1,6 +1,8 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
-source "ssh://git@gitlab.huolala.cn:56358/group-autotest/specs.git"
+#source "ssh://git@gitlab.huolala.cn:56358/group-autotest/specs.git"
+#source 'https://cdn.cocoapods.org/'
+#source 'https://cocoapods.org'
 
 use_frameworks!
 platform :ios, '13.0'
