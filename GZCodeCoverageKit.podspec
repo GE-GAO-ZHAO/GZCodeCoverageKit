@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
-  s.source_files = 'GZCodeCoverageKit/Classes/**/*'
+#  s.source_files = 'GZCodeCoverageKit/Classes/**/*'
   s.frameworks = 'Foundation', 'UIKit'
   s.vendored_frameworks = 'GZCodeCoverageKit-1.0.2/GZCodeCoverageKit.xcframework/ios-arm64/GZCodeCoverageKit.framework'
   
