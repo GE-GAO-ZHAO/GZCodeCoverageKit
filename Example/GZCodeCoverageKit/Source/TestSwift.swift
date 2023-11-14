@@ -20,5 +20,8 @@ class TestSwift {
         print("hello, i`m test22 哈哈哈")
         print("hello, i`m test22")
         print("hello, i`m test22 嘻嘻嘻")
+        print("hello, i`m test22 嘻嘻嘻")
+        print("hello, i`m test22 嘻嘻嘻")
+        print("hello, i`m test22 嘻嘻嘻")
     }
 }
