@@ -17,6 +17,8 @@ class TestSwift {
     }
     
     public func test22() {
+        print("hello, i`m test22 哈哈哈")
         print("hello, i`m test22")
+        print("hello, i`m test22 嘻嘻嘻")
     }
 }
