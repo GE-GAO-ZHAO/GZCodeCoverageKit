@@ -17,5 +17,9 @@
     NSLog(@"hello , i`m test11");
 }
 
+- (void)test22 {
+    NSLog(@"hello , i`m test22");
+}
+
 @end
 

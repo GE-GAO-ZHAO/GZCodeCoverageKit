@@ -15,4 +15,8 @@ class TestSwift {
     public func test11() {
         print("hello, i`m test11")
     }
+    
+    public func test22() {
+        print("hello, i`m test22")
+    }
 }

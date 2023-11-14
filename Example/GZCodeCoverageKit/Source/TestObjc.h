@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)test;
 - (void)test11;
+- (void)test22;
 
 @end
 
