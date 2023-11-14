@@ -6,7 +6,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'XXX' do
-  pod 'GZCodeCoverageKit' #不需要指定版本，越新越稳定
+  pod 'GZCodeCoverageKit', '2.0.1'
 end
 
 ```
